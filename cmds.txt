@@ -58,4 +58,7 @@
 
 6. User Registration
 
-17.pip install django-crispy-forms
+    17.pip install django-crispy-forms
+
+7.Login and Logout System
+    18.
