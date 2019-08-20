@@ -34,4 +34,28 @@
 6.django-admin startproject django_project, cd django_project
 7.python manage.py runserver
 8.python manage.py startapp blog
-9.
+9.python manage.py makemigrations
+10.python manage.py migrate
+11.python manage.py createsuperuser
+
+
+5.Database and Migrations
+
+12.python manage.py makemigrations
+13.python manage.py sqlmigrate blog 0001
+14.python manage.pyt migrate
+15.python manage.py shell
+16. from blog.models import Post
+    from django.contrib.auth.models import User
+    User.objects.all()
+    User.objects.first()
+    User.objects.filter(username='linus').first()
+    user = User.objects.filter(username='linus').first()
+    post_1 = Post(title='1st post', content='Content of 1st post', author=user)
+
+    user.post_set
+    user.post_set.create(title='Blog 2', content='Content of 2nd post')
+
+6. User Registration
+
+17.pip install django-crispy-forms
