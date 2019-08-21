@@ -61,4 +61,8 @@
     17.pip install django-crispy-forms
 
 7.Login and Logout System
-    18.
+    
+8.User Profile and Picture
+    18. pip install Pillow
+    19. python manage.py makemigrations
+    20. 
